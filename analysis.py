@@ -35,7 +35,7 @@ with tab1:
     #create a dataframe group by for clearer distribution
     data=installations[['nom_dept','count', 'sum_3_prod_e_kw_puissance_de_raccordement_injection','date_des_donnees']]
     #format date data 
-    data['date_des_donnees']=pd.to_datetime(data['date_des_donnees'],format='%Y-%m')+ MonthEnd(0)
+    data['date_des_donnees']=pd.to_datetime(data['date_des_donnees'],format='%Y-%m')
     data1=data.groupby('nom_dept').sum().reset_index()
     #transform column for better visibility
     # data1['sum_3_prod_e_kw_puissance_de_raccordement_injection']=round(data1['sum_3_prod_e_kw_puissance_de_raccordement_injection']/1000000,1)
