@@ -1,6 +1,6 @@
 streamlit
-plotly.express 
+plotly
 pandas
 numpy
 unidecode 
-streamlit_extras.colored_header
+streamlit-extras
