@@ -1,8 +1,6 @@
 #import packages
 import streamlit as st
 import plotly.express as px #for plots
-import plotly.offline as pyo
-pyo.init_notebook_mode() #ensure plot remain visible
 import pandas as pd
 import numpy as np
 from pandas.tseries.offsets import MonthEnd
