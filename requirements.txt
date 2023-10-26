@@ -1,0 +1,6 @@
+streamlit
+plotly.express 
+pandas
+numpy
+unidecode 
+streamlit_extras.colored_header
